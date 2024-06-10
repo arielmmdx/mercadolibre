@@ -8,13 +8,13 @@ This Python script reads three sources of data:
 - `pays.csv`: History of payments made by users for 1 month, in CSV format.
 
 The expected output after transformation is a file `expected_value.csv` that contains:
-Prints from the last week:
-- For each print:
-  - A field indicating if a click was made or not.
-  - The number of times the user viewed each value_prop in the 3 weeks prior to that print.
-  - The number of times the user clicked each value_prop in the 3 weeks prior to that print.
-  - The number of payments the user made for each value_prop in the 3 weeks prior to that print.
-  - The accumulated amounts the user spent for each value_prop in the 3 weeks prior to that print.
+-Prints from the last week.
+  - For each print:
+    - A field indicating if a click was made or not.
+    - The number of times the user viewed each value_prop in the 3 weeks prior to that print.
+    - The number of times the user clicked each value_prop in the 3 weeks prior to that print.
+    - The number of payments the user made for each value_prop in the 3 weeks prior to that print.
+    - The accumulated amounts the user spent for each value_prop in the 3 weeks prior to that print.
 
 ## Requirements
 
