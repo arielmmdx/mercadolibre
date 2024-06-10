@@ -2,6 +2,8 @@
 
 [Jupyter Notebook - mercadolibre.ipynb](https://github.com/arielmmdx/mercadolibre/blob/main/mercadolibre.ipynb)
 
+[Exercise instructions](https://github.com/arielmmdx/mercadolibre/blob/main/Data%20Engineer%20-%20Exercise.pdf)
+
 This Python script reads three sources of data: 
 - `prints.json`: History of value_prop shown to each user for 1 month, in JSON lines format.
 - `taps.json`: History of value_prop clicked by a user for 1 month, in JSON lines format.
