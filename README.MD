@@ -88,7 +88,7 @@ The script performs the following steps:
    - Merges aggregated data with prints.
    - Selects required columns and fills NA values with 0.
    - Converts columns to appropriate data types and rounds 'total_spent_3w' to 4 decimal places.
-   - Save Processed Data**: Saves the processed DataFrame to `expected_result.csv`.
+   - Save Processed Data: Saves the processed DataFrame to `expected_result.csv`.
 
 # Testing Code
 Manual testing to verify per user that `expected_result.csv` is correct by comparing it against the original files `prints.json`, `taps.json`, and `pays.csv`.
