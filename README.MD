@@ -9,7 +9,7 @@ This Python script reads three sources of data:
 
 The expected output after transformation is a file `expected_value.csv` that contains:
 
--Prints from the last week.
+- Prints from the last week:
   - For each print:
     - A field indicating if a click was made or not.
     - The number of times the user viewed each value_prop in the 3 weeks prior to that print.
