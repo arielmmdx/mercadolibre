@@ -1,6 +1,8 @@
-# Main Code
+# Exercise instructions.
 
 [Exercise instructions](https://github.com/arielmmdx/mercadolibre/blob/main/Data%20Engineer%20-%20Exercise.pdf)
+
+# Main Code
 
 [Jupyter Notebook Resolved- mercadolibre.ipynb](https://github.com/arielmmdx/mercadolibre/blob/main/mercadolibre.ipynb)
 
