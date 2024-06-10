@@ -1,4 +1,6 @@
-# Data Processing and Analysis Script
+# Main Code
+
+[Jupyter Notebook - mercadolibre.ipynb](https://github.com/arielmmdx/mercadolibre/blob/main/mercadolibre.ipynb)
 
 This Python script processes and analyzes user interaction data from JSON and CSV files. It calculates various metrics such as views, clicks, and payments for user interactions with value propositions over a specified period.
 
@@ -9,6 +11,13 @@ This Python script processes and analyzes user interaction data from JSON and CS
 - datetime
 - json
 - logging
+
+## Installation
+
+To install the required packages, run:
+
+```bash
+pip install pandas
 
 ## Files
 
@@ -32,6 +41,16 @@ The expected data types for the columns in the input files are defined as follow
   - `total`: float
   - `user_id`: integer
   - `value_prop`: string
+
+- `expected_result.csv`:
+  - `user_id`: int
+  - `day`: 'datetime64[ns]'
+  - `value_prop`: str
+  - `clicked`: bool
+  - `views_3w`: int
+  - `clicks_3w`: int
+  - `payments_3w`: int
+  - `total_spent_3w`: float
 
 ## Script Overview
 
@@ -58,4 +77,5 @@ The script performs the following steps:
 
 4. **Save Processed Data**: Saves the processed DataFrame to `expected_result.csv`.
 
-5. Manual testing to verify per user that `expected_result.csv` is correct by comparing it against the original files `prints.json`, `taps.json`, and `pays.csv`.
+# Testing Code
+Manual testing to verify per user that `expected_result.csv` is correct by comparing it against the original files `prints.json`, `taps.json`, and `pays.csv`.
