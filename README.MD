@@ -76,7 +76,7 @@ The script performs the following steps:
    - Reads `prints.json` and `taps.json` files into pandas DataFrames using the `read_json_lines_to_dataframe` function.
    - Reads `pays.csv` file into a pandas DataFrame using the `read_csv_to_dataframe` function.
 
-3. **Process Data**:
+3. **Process Data using `process_and_save_dataframe` function**:
    - Strips whitespace from 'value_prop' columns in all input DataFrames.
    - Converts date columns to datetime and normalizes them.
    - Calculates the last print date and the start date of the last week.
