@@ -45,13 +45,13 @@ pip install pandas
 The expected data types for the columns in the input files are defined as follows:
 
 - `prints.json` and `taps.json`:
-  - `day`: string
+  - `day`: 'datetime64[ns]'
   - `user_id`: integer
   - `position`: integer
   - `value_prop`: string
 
 - `pays.csv`:
-  - `pay_date`: string
+  - `pay_date`: 'datetime64[ns]'
   - `total`: float
   - `user_id`: integer
   - `value_prop`: string
