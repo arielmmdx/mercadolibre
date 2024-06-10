@@ -90,7 +90,7 @@ The script performs the following steps:
    - Converts columns to appropriate data types and rounds 'total_spent_3w' to 4 decimal places.
    - Save Processed Data: Saves the processed DataFrame to `expected_result.csv`.
 
-4. ** Expected Results link **
+4. **Expected Results link**:
    - [expected_results.csv](https://raw.githubusercontent.com/arielmmdx/mercadolibre/main/expected_result.csv)
 
 # Testing Code
