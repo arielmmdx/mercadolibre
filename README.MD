@@ -2,7 +2,19 @@
 
 [Jupyter Notebook - mercadolibre.ipynb](https://github.com/arielmmdx/mercadolibre/blob/main/mercadolibre.ipynb)
 
-This Python script processes and analyzes user interaction data from JSON and CSV files. It calculates various metrics such as views, clicks, and payments for user interactions with value propositions over a specified period.
+This Python script reads three sources of data: 
+- `prints.json`: History of value propositions shown to each user for 1 month, in JSON lines format.
+- `taps.json`: History of value propositions clicked by a user for 1 month, in JSON lines format.
+- `pays.csv`: History of payments made by users for 1 month, in CSV format.
+
+The expected output after transformation is a file `expected_value.csv` that contains:
+Prints from the last week:
+- For each print:
+  - A field indicating if a click was made or not.
+  - The number of times the user viewed each value proposition in the 3 weeks prior to that print.
+  - The number of times the user clicked each value proposition in the 3 weeks prior to that print.
+  - The number of payments the user made for each value proposition in the 3 weeks prior to that print.
+  - The accumulated amounts the user spent for each value proposition in the 3 weeks prior to that print.
 
 ## Requirements
 
@@ -18,6 +30,7 @@ To install the required packages, run:
 
 ```bash
 pip install pandas
+```
 
 ## Files
 
