@@ -91,7 +91,7 @@ The script performs the following steps:
    - Save Processed Data: Saves the processed DataFrame to `expected_result.csv`.
 
 4. **Final Expected Results**:
-    -  [expected_results.csv](https://raw.githubusercontent.com/arielmmdx/mercadolibre/main/expected_result.csv)
+    -  [expected_result.csv](https://raw.githubusercontent.com/arielmmdx/mercadolibre/main/expected_result.csv)
 
 # Testing Code
 Manual testing to verify per user that `expected_result.csv` is correct by comparing it against the original files `prints.json`, `taps.json`, and `pays.csv`.
